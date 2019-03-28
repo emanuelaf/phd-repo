@@ -12,7 +12,7 @@ fb_data <- fb_data %>%
   mutate(reactions = as.numeric(reactions)) %>%
   filter(!is.na(reactions))
 
-
+# il mio commento e piu importante 
 p1 <- ggplot(data = fb_data, aes(x=type, y = clicks)) +
   geom_boxplot()
 
