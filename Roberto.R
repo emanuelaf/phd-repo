@@ -14,3 +14,4 @@ fb_data <- fb_data %>%
 
 
 table(fb_data$type)
+boxplot(clicks~type, data=fb_data)
